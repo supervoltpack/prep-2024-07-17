@@ -73,21 +73,37 @@ tibble(ID = c("1", "2", "...", "10", "11", "...", "N"),
 
 > What are the units, precisely?
 
+The resumes tied to the individuals.
+
 > What is the moment in time, precisely?
 
+The moment the resumes are reviewed, or when the study was taken; 2004. The most relevant time period would be the current moment - today.
+
 > What is one reason why validity might not hold?
+
+Racial profiling and bias in the one reviewing the resumes.
 
 <!-- Assume validity holds, and we can create the Population Table -->
 
 > Describe the Population Table in words
 
+We may also add the Name's of the units, which would complement the ID column. Then we could also add the "sex" column, which would be, presumably, a covariate. 
+
 > What is one reason why stability might not hold?
+
+Major world events could have taken place between the date of the study to current date which would affect the correspondence between the data.  
 
 > What is one reason why representativeness might not hold?
 
+Lack of diversity within fields of companies and companies themselves. Does the data represent the rest of the country or only a specific location? -> In our case, it only affects Boston, Chicago, so the representativeness would not hold in this scenario.
+
 > What is one reason why unconfoundedness might not hold?
 
+The entropical sense and the value of the ambiguity and randomness of the treatment values associated with the data.
+
 > Describe in words what the Preceptor Table would look like if we were trying to, instead, predict whether or not someone would get a callback?
+
+We would not have the treatment column, and the data would we a lot more oriented towards being predictive towards the Nth ID.
 
 <!-- If time, load up and explore the data.  -->
   
